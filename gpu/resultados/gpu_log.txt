@@ -1,0 +1,27 @@
+{'device': 'cuda', 'cpu_count': 16, 'workers': 16, 'torch': '2.11.0+cu128', 'epochs': 10, 'runs': 5, 'gpu': 'NVIDIA GeForce RTX 5060 Laptop GPU', 'cuda': '12.8'}
+Calentamiento (descartado)...
+run 1: {'F1_listado_split': 0.665, 'F2a_preproc_train': 0.856, 'F2b_preproc_val': 0.131, 'T1_transfer_H2D': 0.011, 'N_normalizacion': 0.007, 'F3_train_CNN1_total': 11.265, 'F3_train_CNN1_por_epoca': 1.127, 'acc_val_CNN1': 0.909, 'F5_inferencia_val_CNN1': 0.093, 'F5_inferencia_kernels_propios_CNN1': 0.144, 'acc_val_kernels_propios_CNN1': 0.909, 'F3_train_CNN2_total': 12.646, 'F3_train_CNN2_por_epoca': 1.265, 'acc_val_CNN2': 0.974, 'F5_inferencia_val_CNN2': 0.103, 'F5_inferencia_kernels_propios_CNN2': 0.217, 'acc_val_kernels_propios_CNN2': 0.974}
+run 2: {'F1_listado_split': 0.592, 'F2a_preproc_train': 0.875, 'F2b_preproc_val': 0.132, 'T1_transfer_H2D': 0.011, 'N_normalizacion': 0.008, 'F3_train_CNN1_total': 11.321, 'F3_train_CNN1_por_epoca': 1.132, 'acc_val_CNN1': 0.893, 'F5_inferencia_val_CNN1': 0.092, 'F5_inferencia_kernels_propios_CNN1': 0.144, 'acc_val_kernels_propios_CNN1': 0.893, 'F3_train_CNN2_total': 12.778, 'F3_train_CNN2_por_epoca': 1.278, 'acc_val_CNN2': 0.977, 'F5_inferencia_val_CNN2': 0.103, 'F5_inferencia_kernels_propios_CNN2': 0.218, 'acc_val_kernels_propios_CNN2': 0.977}
+run 3: {'F1_listado_split': 0.607, 'F2a_preproc_train': 0.864, 'F2b_preproc_val': 0.128, 'T1_transfer_H2D': 0.011, 'N_normalizacion': 0.008, 'F3_train_CNN1_total': 11.441, 'F3_train_CNN1_por_epoca': 1.144, 'acc_val_CNN1': 0.93, 'F5_inferencia_val_CNN1': 0.093, 'F5_inferencia_kernels_propios_CNN1': 0.145, 'acc_val_kernels_propios_CNN1': 0.93, 'F3_train_CNN2_total': 12.785, 'F3_train_CNN2_por_epoca': 1.279, 'acc_val_CNN2': 0.965, 'F5_inferencia_val_CNN2': 0.103, 'F5_inferencia_kernels_propios_CNN2': 0.218, 'acc_val_kernels_propios_CNN2': 0.965}
+run 4: {'F1_listado_split': 0.624, 'F2a_preproc_train': 0.854, 'F2b_preproc_val': 0.128, 'T1_transfer_H2D': 0.016, 'N_normalizacion': 0.008, 'F3_train_CNN1_total': 11.383, 'F3_train_CNN1_por_epoca': 1.138, 'acc_val_CNN1': 0.907, 'F5_inferencia_val_CNN1': 0.092, 'F5_inferencia_kernels_propios_CNN1': 0.144, 'acc_val_kernels_propios_CNN1': 0.907, 'F3_train_CNN2_total': 12.776, 'F3_train_CNN2_por_epoca': 1.278, 'acc_val_CNN2': 0.967, 'F5_inferencia_val_CNN2': 0.103, 'F5_inferencia_kernels_propios_CNN2': 0.218, 'acc_val_kernels_propios_CNN2': 0.967}
+run 5: {'F1_listado_split': 0.626, 'F2a_preproc_train': 0.867, 'F2b_preproc_val': 0.127, 'T1_transfer_H2D': 0.011, 'N_normalizacion': 0.008, 'F3_train_CNN1_total': 11.449, 'F3_train_CNN1_por_epoca': 1.145, 'acc_val_CNN1': 0.894, 'F5_inferencia_val_CNN1': 0.093, 'F5_inferencia_kernels_propios_CNN1': 0.145, 'acc_val_kernels_propios_CNN1': 0.894, 'F3_train_CNN2_total': 12.813, 'F3_train_CNN2_por_epoca': 1.281, 'acc_val_CNN2': 0.967, 'F5_inferencia_val_CNN2': 0.103, 'F5_inferencia_kernels_propios_CNN2': 0.218, 'acc_val_kernels_propios_CNN2': 0.967}
+                                         mean    std        min        max
+F1_listado_split                        0.623  0.027      0.592      0.665
+F2a_preproc_train                       0.863  0.008      0.854      0.875
+F2b_preproc_val                         0.129  0.002      0.127      0.132
+n_train                             12180.000  0.000  12180.000  12180.000
+n_val                                2610.000  0.000   2610.000   2610.000
+T1_transfer_H2D                         0.012  0.002      0.011      0.016
+N_normalizacion                         0.008  0.000      0.007      0.008
+F3_train_CNN1_total                    11.372  0.079     11.265     11.449
+F3_train_CNN1_por_epoca                 1.137  0.008      1.127      1.145
+acc_val_CNN1                            0.907  0.015      0.893      0.930
+F5_inferencia_val_CNN1                  0.093  0.000      0.092      0.093
+F5_inferencia_kernels_propios_CNN1      0.144  0.001      0.144      0.145
+acc_val_kernels_propios_CNN1            0.907  0.015      0.893      0.930
+F3_train_CNN2_total                    12.760  0.065     12.646     12.813
+F3_train_CNN2_por_epoca                 1.276  0.007      1.265      1.281
+acc_val_CNN2                            0.970  0.005      0.965      0.977
+F5_inferencia_val_CNN2                  0.103  0.000      0.103      0.103
+F5_inferencia_kernels_propios_CNN2      0.218  0.001      0.217      0.218
+acc_val_kernels_propios_CNN2            0.970  0.005      0.965      0.977

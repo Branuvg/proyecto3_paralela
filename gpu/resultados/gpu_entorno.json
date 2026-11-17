@@ -1,0 +1,10 @@
+{
+  "device": "cuda",
+  "cpu_count": 16,
+  "workers": 16,
+  "torch": "2.11.0+cu128",
+  "epochs": 10,
+  "runs": 5,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "cuda": "12.8"
+}

@@ -1,0 +1,21 @@
+{'device': 'cpu', 'cpu_count': 16, 'workers': 16, 'torch': '2.11.0+cu128', 'epochs': 10, 'runs': 3, 'gpu': None, 'cuda': None}
+Calentamiento (descartado)...
+run 1: {'F1_listado_split': 0.678, 'F2a_preproc_train': 0.859, 'F2b_preproc_val': 0.128, 'T1_transfer_H2D': 0.0, 'N_normalizacion': 0.059, 'F3_train_CNN1_total': 54.448, 'F3_train_CNN1_por_epoca': 5.445, 'acc_val_CNN1': 0.905, 'F5_inferencia_val_CNN1': 0.384, 'F3_train_CNN2_total': 79.454, 'F3_train_CNN2_por_epoca': 7.945, 'acc_val_CNN2': 0.962, 'F5_inferencia_val_CNN2': 0.612}
+run 2: {'F1_listado_split': 0.696, 'F2a_preproc_train': 0.883, 'F2b_preproc_val': 0.13, 'T1_transfer_H2D': 0.0, 'N_normalizacion': 0.06, 'F3_train_CNN1_total': 76.238, 'F3_train_CNN1_por_epoca': 7.624, 'acc_val_CNN1': 0.905, 'F5_inferencia_val_CNN1': 0.537, 'F3_train_CNN2_total': 95.611, 'F3_train_CNN2_por_epoca': 9.561, 'acc_val_CNN2': 0.962, 'F5_inferencia_val_CNN2': 0.714}
+run 3: {'F1_listado_split': 0.828, 'F2a_preproc_train': 0.927, 'F2b_preproc_val': 0.138, 'T1_transfer_H2D': 0.0, 'N_normalizacion': 0.06, 'F3_train_CNN1_total': 79.04, 'F3_train_CNN1_por_epoca': 7.904, 'acc_val_CNN1': 0.905, 'F5_inferencia_val_CNN1': 0.532, 'F3_train_CNN2_total': 102.075, 'F3_train_CNN2_por_epoca': 10.208, 'acc_val_CNN2': 0.962, 'F5_inferencia_val_CNN2': 0.674}
+                              mean     std        min        max
+F1_listado_split             0.734   0.082      0.678      0.828
+F2a_preproc_train            0.890   0.034      0.859      0.927
+F2b_preproc_val              0.132   0.005      0.128      0.138
+n_train                  12180.000   0.000  12180.000  12180.000
+n_val                     2610.000   0.000   2610.000   2610.000
+T1_transfer_H2D              0.000   0.000      0.000      0.000
+N_normalizacion              0.059   0.000      0.059      0.060
+F3_train_CNN1_total         69.909  13.462     54.448     79.040
+F3_train_CNN1_por_epoca      6.991   1.346      5.445      7.904
+acc_val_CNN1                 0.905   0.000      0.905      0.905
+F5_inferencia_val_CNN1       0.484   0.087      0.384      0.537
+F3_train_CNN2_total         92.380  11.652     79.454    102.075
+F3_train_CNN2_por_epoca      9.238   1.165      7.945     10.208
+acc_val_CNN2                 0.962   0.000      0.962      0.962
+F5_inferencia_val_CNN2       0.667   0.051      0.612      0.714
