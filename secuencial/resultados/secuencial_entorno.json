@@ -1,0 +1,9 @@
+{
+  "cpu_count": 16,
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.8",
+  "tensorflow": "2.21.0",
+  "tf_gpus": [],
+  "epochs": 10,
+  "runs": 5
+}

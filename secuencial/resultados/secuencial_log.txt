@@ -1,0 +1,27 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794872739.388287    4928 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794872740.808368    4928 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+{'cpu_count': 16, 'platform': 'Windows-11-10.0.26300-SP0', 'python': '3.12.8', 'tensorflow': '2.21.0', 'tf_gpus': [], 'epochs': 10, 'runs': 5}
+Calentamiento (descartado: llena cache de disco y compila grafos)...
+run 1: {'F1_listado_split': 0.92, 'F2a_preproc_train': 9.13, 'F2b_preproc_val': 1.98, 'F3_train_CNN1_total': 45.27, 'F3_train_CNN1_por_epoca': 4.53, 'F5_inferencia_val_CNN1': 0.42, 'acc_val_CNN1': 0.92, 'F3_train_CNN2_total': 52.37, 'F3_train_CNN2_por_epoca': 5.24, 'F5_inferencia_val_CNN2': 0.39, 'acc_val_CNN2': 0.97, 'F4_random_forest_fit': 12.46}
+run 2: {'F1_listado_split': 0.61, 'F2a_preproc_train': 4.87, 'F2b_preproc_val': 1.05, 'F3_train_CNN1_total': 37.63, 'F3_train_CNN1_por_epoca': 3.76, 'F5_inferencia_val_CNN1': 0.33, 'acc_val_CNN1': 0.92, 'F3_train_CNN2_total': 44.11, 'F3_train_CNN2_por_epoca': 4.41, 'F5_inferencia_val_CNN2': 0.39, 'acc_val_CNN2': 0.97, 'F4_random_forest_fit': 12.85}
+run 3: {'F1_listado_split': 0.62, 'F2a_preproc_train': 4.67, 'F2b_preproc_val': 1.0, 'F3_train_CNN1_total': 37.26, 'F3_train_CNN1_por_epoca': 3.73, 'F5_inferencia_val_CNN1': 0.34, 'acc_val_CNN1': 0.92, 'F3_train_CNN2_total': 44.18, 'F3_train_CNN2_por_epoca': 4.42, 'F5_inferencia_val_CNN2': 0.39, 'acc_val_CNN2': 0.97, 'F4_random_forest_fit': 12.75}
+run 4: {'F1_listado_split': 0.64, 'F2a_preproc_train': 4.74, 'F2b_preproc_val': 1.0, 'F3_train_CNN1_total': 37.03, 'F3_train_CNN1_por_epoca': 3.7, 'F5_inferencia_val_CNN1': 0.33, 'acc_val_CNN1': 0.92, 'F3_train_CNN2_total': 44.05, 'F3_train_CNN2_por_epoca': 4.4, 'F5_inferencia_val_CNN2': 0.39, 'acc_val_CNN2': 0.97, 'F4_random_forest_fit': 12.88}
+run 5: {'F1_listado_split': 0.61, 'F2a_preproc_train': 4.95, 'F2b_preproc_val': 1.08, 'F3_train_CNN1_total': 37.47, 'F3_train_CNN1_por_epoca': 3.75, 'F5_inferencia_val_CNN1': 0.34, 'acc_val_CNN1': 0.92, 'F3_train_CNN2_total': 44.73, 'F3_train_CNN2_por_epoca': 4.47, 'F5_inferencia_val_CNN2': 0.4, 'acc_val_CNN2': 0.97, 'F4_random_forest_fit': 12.91}
+                              mean    std        min        max
+F1_listado_split             0.681  0.136      0.607      0.922
+F2a_preproc_train            5.672  1.935      4.668      9.128
+F2b_preproc_val              1.221  0.424      0.999      1.977
+n_train                  12180.000  0.000  12180.000  12180.000
+n_val                     2610.000  0.000   2610.000   2610.000
+F3_train_CNN1_total         38.931  3.553     37.025     45.273
+F3_train_CNN1_por_epoca      3.893  0.355      3.703      4.527
+F5_inferencia_val_CNN1       0.350  0.039      0.327      0.419
+acc_val_CNN1                 0.923  0.000      0.923      0.923
+F3_train_CNN2_total         45.886  3.632     44.049     52.366
+F3_train_CNN2_por_epoca      4.589  0.363      4.405      5.237
+F5_inferencia_val_CNN2       0.390  0.006      0.386      0.399
+acc_val_CNN2                 0.967  0.000      0.967      0.967
+F4_random_forest_fit        12.769  0.182     12.462     12.909

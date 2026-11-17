@@ -1,0 +1,8 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794875217.926046   12104 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794875219.456765   12104 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+{'cpu_count': 16, 'platform': 'Windows-11-10.0.26300-SP0', 'python': '3.12.8', 'tensorflow': '2.21.0', 'tf_gpus': [], 'epochs': 10, 'runs': 1}
+Calentamiento (descartado: llena cache de disco y compila grafos)...
+run 1: {'F1_listado_split': 0.87, 'F2a_preproc_train': 9.37, 'F2b_preproc_val': 1.93, 'F3_train_CNN1_total': 48.82, 'F3_train_CNN1_por_epoca': 4.88, 'F5_inferencia_val_CNN1': 0.45, 'acc_val_CNN1': 0.93, 'F3_train_CNN2_total': 56.97, 'F3_train_CNN2_por_epoca': 5.7, 'F5_inferencia_val_CNN2': 0.52, 'acc_val_CNN2': 0.97, 'F4_random_forest_fit': 13.94}
