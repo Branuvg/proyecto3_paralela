@@ -221,3 +221,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Datos / entornos locales
+data/
+fotos/
+.venv/
+prep_worker_nb.py
